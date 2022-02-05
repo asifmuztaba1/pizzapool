@@ -1,0 +1,19 @@
+{
+    "name": "wppool/pizzapool",
+    "description": "This is a custom plugin to add order customization by wppool",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Wppool\\Pizzapool\\": "src/",
+            "Wppool\\Pizzapool\\Core\\": "src/core",
+            "Wppool\\Pizzapool\\Admin\\": "src/admin"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md Asif Muztaba",
+            "email": "amuztaba18@gmail.com"
+        }
+    ],
+    "require": {}
+}
